@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D4E7401CA08F28002ED0BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D4E73F1CA08F28002ED0BC /* AppDelegate.swift */; };
+		15D4E7421CA08F28002ED0BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D4E7411CA08F28002ED0BC /* ViewController.swift */; };
+		15D4E7441CA08F28002ED0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D4E7431CA08F28002ED0BC /* Assets.xcassets */; };
+		15D4E7471CA08F28002ED0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D4E7451CA08F28002ED0BC /* Main.storyboard */; };
+		15D4E7521CA08F28002ED0BC /* Pdf_imposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D4E7511CA08F28002ED0BC /* Pdf_imposerTests.swift */; };
+		15D4E75D1CA08F28002ED0BC /* Pdf_imposerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D4E75C1CA08F28002ED0BC /* Pdf_imposerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15D4E74E1CA08F28002ED0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D4E7341CA08F28002ED0BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D4E73B1CA08F28002ED0BC;
+			remoteInfo = "Pdf-imposer";
+		};
+		15D4E7591CA08F28002ED0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D4E7341CA08F28002ED0BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D4E73B1CA08F28002ED0BC;
+			remoteInfo = "Pdf-imposer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D4E73C1CA08F28002ED0BC /* Pdf-imposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pdf-imposer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D4E73F1CA08F28002ED0BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15D4E7411CA08F28002ED0BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15D4E7431CA08F28002ED0BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15D4E7461CA08F28002ED0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15D4E7481CA08F28002ED0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D4E74D1CA08F28002ED0BC /* Pdf-imposerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pdf-imposerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D4E7511CA08F28002ED0BC /* Pdf_imposerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pdf_imposerTests.swift; sourceTree = "<group>"; };
+		15D4E7531CA08F28002ED0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D4E7581CA08F28002ED0BC /* Pdf-imposerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pdf-imposerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D4E75C1CA08F28002ED0BC /* Pdf_imposerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pdf_imposerUITests.swift; sourceTree = "<group>"; };
+		15D4E75E1CA08F28002ED0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D4E7391CA08F28002ED0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D4E74A1CA08F28002ED0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D4E7551CA08F28002ED0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D4E7331CA08F28002ED0BC = {
+			isa = PBXGroup;
+			children = (
+				15D4E73E1CA08F28002ED0BC /* Pdf-imposer */,
+				15D4E7501CA08F28002ED0BC /* Pdf-imposerTests */,
+				15D4E75B1CA08F28002ED0BC /* Pdf-imposerUITests */,
+				15D4E73D1CA08F28002ED0BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15D4E73D1CA08F28002ED0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D4E73C1CA08F28002ED0BC /* Pdf-imposer.app */,
+				15D4E74D1CA08F28002ED0BC /* Pdf-imposerTests.xctest */,
+				15D4E7581CA08F28002ED0BC /* Pdf-imposerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D4E73E1CA08F28002ED0BC /* Pdf-imposer */ = {
+			isa = PBXGroup;
+			children = (
+				15D4E73F1CA08F28002ED0BC /* AppDelegate.swift */,
+				15D4E7411CA08F28002ED0BC /* ViewController.swift */,
+				15D4E7431CA08F28002ED0BC /* Assets.xcassets */,
+				15D4E7451CA08F28002ED0BC /* Main.storyboard */,
+				15D4E7481CA08F28002ED0BC /* Info.plist */,
+			);
+			path = "Pdf-imposer";
+			sourceTree = "<group>";
+		};
+		15D4E7501CA08F28002ED0BC /* Pdf-imposerTests */ = {
+			isa = PBXGroup;
+			children = (
+				15D4E7511CA08F28002ED0BC /* Pdf_imposerTests.swift */,
+				15D4E7531CA08F28002ED0BC /* Info.plist */,
+			);
+			path = "Pdf-imposerTests";
+			sourceTree = "<group>";
+		};
+		15D4E75B1CA08F28002ED0BC /* Pdf-imposerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15D4E75C1CA08F28002ED0BC /* Pdf_imposerUITests.swift */,
+				15D4E75E1CA08F28002ED0BC /* Info.plist */,
+			);
+			path = "Pdf-imposerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D4E73B1CA08F28002ED0BC /* Pdf-imposer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D4E7611CA08F28002ED0BC /* Build configuration list for PBXNativeTarget "Pdf-imposer" */;
+			buildPhases = (
+				15D4E7381CA08F28002ED0BC /* Sources */,
+				15D4E7391CA08F28002ED0BC /* Frameworks */,
+				15D4E73A1CA08F28002ED0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pdf-imposer";
+			productName = "Pdf-imposer";
+			productReference = 15D4E73C1CA08F28002ED0BC /* Pdf-imposer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15D4E74C1CA08F28002ED0BC /* Pdf-imposerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D4E7641CA08F28002ED0BC /* Build configuration list for PBXNativeTarget "Pdf-imposerTests" */;
+			buildPhases = (
+				15D4E7491CA08F28002ED0BC /* Sources */,
+				15D4E74A1CA08F28002ED0BC /* Frameworks */,
+				15D4E74B1CA08F28002ED0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D4E74F1CA08F28002ED0BC /* PBXTargetDependency */,
+			);
+			name = "Pdf-imposerTests";
+			productName = "Pdf-imposerTests";
+			productReference = 15D4E74D1CA08F28002ED0BC /* Pdf-imposerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15D4E7571CA08F28002ED0BC /* Pdf-imposerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D4E7671CA08F28002ED0BC /* Build configuration list for PBXNativeTarget "Pdf-imposerUITests" */;
+			buildPhases = (
+				15D4E7541CA08F28002ED0BC /* Sources */,
+				15D4E7551CA08F28002ED0BC /* Frameworks */,
+				15D4E7561CA08F28002ED0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D4E75A1CA08F28002ED0BC /* PBXTargetDependency */,
+			);
+			name = "Pdf-imposerUITests";
+			productName = "Pdf-imposerUITests";
+			productReference = 15D4E7581CA08F28002ED0BC /* Pdf-imposerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D4E7341CA08F28002ED0BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Weicheng Zhu";
+				TargetAttributes = {
+					15D4E73B1CA08F28002ED0BC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					15D4E74C1CA08F28002ED0BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 15D4E73B1CA08F28002ED0BC;
+					};
+					15D4E7571CA08F28002ED0BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 15D4E73B1CA08F28002ED0BC;
+					};
+				};
+			};
+			buildConfigurationList = 15D4E7371CA08F28002ED0BC /* Build configuration list for PBXProject "Pdf-imposer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15D4E7331CA08F28002ED0BC;
+			productRefGroup = 15D4E73D1CA08F28002ED0BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D4E73B1CA08F28002ED0BC /* Pdf-imposer */,
+				15D4E74C1CA08F28002ED0BC /* Pdf-imposerTests */,
+				15D4E7571CA08F28002ED0BC /* Pdf-imposerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D4E73A1CA08F28002ED0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D4E7441CA08F28002ED0BC /* Assets.xcassets in Resources */,
+				15D4E7471CA08F28002ED0BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D4E74B1CA08F28002ED0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D4E7561CA08F28002ED0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D4E7381CA08F28002ED0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D4E7421CA08F28002ED0BC /* ViewController.swift in Sources */,
+				15D4E7401CA08F28002ED0BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D4E7491CA08F28002ED0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D4E7521CA08F28002ED0BC /* Pdf_imposerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D4E7541CA08F28002ED0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D4E75D1CA08F28002ED0BC /* Pdf_imposerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15D4E74F1CA08F28002ED0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15D4E73B1CA08F28002ED0BC /* Pdf-imposer */;
+			targetProxy = 15D4E74E1CA08F28002ED0BC /* PBXContainerItemProxy */;
+		};
+		15D4E75A1CA08F28002ED0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15D4E73B1CA08F28002ED0BC /* Pdf-imposer */;
+			targetProxy = 15D4E7591CA08F28002ED0BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15D4E7451CA08F28002ED0BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D4E7461CA08F28002ED0BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D4E75F1CA08F28002ED0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15D4E7601CA08F28002ED0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15D4E7621CA08F28002ED0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pdf-imposer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wzhu.org.Pdf-imposer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15D4E7631CA08F28002ED0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pdf-imposer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wzhu.org.Pdf-imposer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15D4E7651CA08F28002ED0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pdf-imposerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wzhu.org.Pdf-imposerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pdf-imposer.app/Contents/MacOS/Pdf-imposer";
+			};
+			name = Debug;
+		};
+		15D4E7661CA08F28002ED0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pdf-imposerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wzhu.org.Pdf-imposerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pdf-imposer.app/Contents/MacOS/Pdf-imposer";
+			};
+			name = Release;
+		};
+		15D4E7681CA08F28002ED0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pdf-imposerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wzhu.org.Pdf-imposerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pdf-imposer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15D4E7691CA08F28002ED0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pdf-imposerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wzhu.org.Pdf-imposerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pdf-imposer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D4E7371CA08F28002ED0BC /* Build configuration list for PBXProject "Pdf-imposer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D4E75F1CA08F28002ED0BC /* Debug */,
+				15D4E7601CA08F28002ED0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D4E7611CA08F28002ED0BC /* Build configuration list for PBXNativeTarget "Pdf-imposer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D4E7621CA08F28002ED0BC /* Debug */,
+				15D4E7631CA08F28002ED0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15D4E7641CA08F28002ED0BC /* Build configuration list for PBXNativeTarget "Pdf-imposerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D4E7651CA08F28002ED0BC /* Debug */,
+				15D4E7661CA08F28002ED0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15D4E7671CA08F28002ED0BC /* Build configuration list for PBXNativeTarget "Pdf-imposerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D4E7681CA08F28002ED0BC /* Debug */,
+				15D4E7691CA08F28002ED0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D4E7341CA08F28002ED0BC /* Project object */;
+}
