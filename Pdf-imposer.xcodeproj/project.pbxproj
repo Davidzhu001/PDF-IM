@@ -13,6 +13,7 @@
 		15D4E7471CA08F28002ED0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D4E7451CA08F28002ED0BC /* Main.storyboard */; };
 		15D4E7521CA08F28002ED0BC /* Pdf_imposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D4E7511CA08F28002ED0BC /* Pdf_imposerTests.swift */; };
 		15D4E75D1CA08F28002ED0BC /* Pdf_imposerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D4E75C1CA08F28002ED0BC /* Pdf_imposerUITests.swift */; };
+		15D4E76E1CA09397002ED0BC /* something.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 15D4E76D1CA09397002ED0BC /* something.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		15D4E7581CA08F28002ED0BC /* Pdf-imposerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pdf-imposerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D4E75C1CA08F28002ED0BC /* Pdf_imposerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pdf_imposerUITests.swift; sourceTree = "<group>"; };
 		15D4E75E1CA08F28002ED0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D4E76D1CA09397002ED0BC /* something.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = something.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				15D4E73F1CA08F28002ED0BC /* AppDelegate.swift */,
 				15D4E7411CA08F28002ED0BC /* ViewController.swift */,
 				15D4E7431CA08F28002ED0BC /* Assets.xcassets */,
+				15D4E76C1CA08F59002ED0BC /* file */,
 				15D4E7451CA08F28002ED0BC /* Main.storyboard */,
 				15D4E7481CA08F28002ED0BC /* Info.plist */,
 			);
@@ -120,6 +123,14 @@
 				15D4E75E1CA08F28002ED0BC /* Info.plist */,
 			);
 			path = "Pdf-imposerUITests";
+			sourceTree = "<group>";
+		};
+		15D4E76C1CA08F59002ED0BC /* file */ = {
+			isa = PBXGroup;
+			children = (
+				15D4E76D1CA09397002ED0BC /* something.pdf */,
+			);
+			name = file;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 			files = (
 				15D4E7441CA08F28002ED0BC /* Assets.xcassets in Resources */,
 				15D4E7471CA08F28002ED0BC /* Main.storyboard in Resources */,
+				15D4E76E1CA09397002ED0BC /* something.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
